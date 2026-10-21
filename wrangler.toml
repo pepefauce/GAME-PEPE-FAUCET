@@ -1,0 +1,9 @@
+name = "game-pepe-faucet"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Conexión con tu Base de Datos D1
+[[d1_databases]]
+binding = "DB"
+database_name = "pepe-faucet-db"
+database_id = "TU_DATABASE_ID_AQUI"
